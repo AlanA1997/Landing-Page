@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agremiados</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+<section> 
+<header id="header" class="transparent">
+<div class="container">
+    <div class="row">
+        <div class="align-items-center col-6 col-xl-2 d-flex">
+          <a class="navbar-brand" href="https://www.agremiados.com.ar"> <img class="logo-color" src="https://faaweb.b-cdn.net/media/web/assets/icons/logo-color.svg" alt=""> <img class="logo-white" src="https://faaweb.b-cdn.net/media/web/assets/icons/logo-white.svg" alt=""> </a>
+        </div>
+        <div class="col-6 col-xl-10">
+            <nav class="navbar navbar-expand-xl">
+                <ul class="align-items-center d-flex flex-row justify-content-end justify-content-lg-between navbar-nav w-100">
+                    <li class="d-none d-xl-block nav-item"><a class="nav-link semi-bold text-caption" href="#">Noticias</a></li>
+                    <li class="d-none d-xl-block dropdown nav-item">
+                        <a class="nav-link semi-bold text-caption" href="#" id="navbarMultimedia" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Multimedia </a>
+                    </li>
+                    <li class="d-none d-xl-block nav-item"><a class="nav-link semi-bold text-caption" href="#">Educación</a></li>
+                    <li class="d-none d-xl-block dropdown nav-item">
+                        <a class="nav-link semi-bold text-caption" href="#" id="navbarInstitucional" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Institucional </a>
+                    </li>
+
+                    <li class="d-none d-xl-block dropdown nav-item">
+                        <a class="nav-link semi-bold text-caption navbarOS" href="#" id="navbarOS" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Obra Social </a>
+                    </li>
+
+                    <li class="d-none d-xl-block dropdown nav-item">
+                        <a class="nav-link semi-bold text-caption navbarIMDYR" href="#" id="navbarIMDYR" role="button" data-bs-toggle="dropdown" aria-expanded="false"> IMDYR </a>
+                    </li>
+
+                    <li class="nav-item nav-item-icon">
+                        <a href="#"> 
+                            <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.848 8.473a4 4 0 1 0-4.946 0 6.667 6.667 0 0 0-4.147 5.454.67.67 0 0 0 1.333.146 5.334 5.334 0 0 1 10.6 0 .667.667 0 0 0 .667.594h.073a.667.667 0 0 0 .587-.734 6.667 6.667 0 0 0-4.167-5.46ZM8.375 8a2.667 2.667 0 1 1 0-5.333 2.667 2.667 0 0 1 0 5.333Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-item-icon">
+                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#searchModal">
+                            <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.473 25.527 24 23.073a6 6 0 1 0-.927.927l2.454 2.453a.665.665 0 0 0 .946 0 .667.667 0 0 0 0-.926ZM19.333 24a4.667 4.667 0 1 1 0-9.335 4.667 4.667 0 0 1 0 9.335Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="d-lg-none nav-item nav-item-icon"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+                        <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.024 2.613c0-.318.258-.576.576-.576h12.8a.576.576 0 0 1 0 1.152H1.6a.576.576 0 0 1-.576-.576Zm0 5.12c0-.318.258-.576.576-.576h12.8a.576.576 0 0 1 0 1.152H1.6a.576.576 0 0 1-.576-.576Zm0 5.12c0-.318.258-.575.576-.575h12.8a.576.576 0 0 1 0 1.152H1.6a.576.576 0 0 1-.576-.576Z" fill="currentColor"></path>
+                        </svg>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</header>
+
+<section class="hero">
+  <img src="img/inicio.jpg" alt="Imagen Messi">
+  <div class="contenido">
+    <h1>Nuevo acuerdo marco</h1>
+    <p>
+      La AFA y Futbolistas Argentinos Agremiados firmaron hoy un nuevo acuerdo marco federal
+      por el cual se creó un fondo asistencial destinado a aquellos jugadores/as cuyo contrato
+      tenga vencimiento el 30 de junio de 2020 y no celebren uno nuevo.
+    </p>
+    <button>Ver más</button>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Fondo Final de Carrera</h2>
+      <p class="text-muted">Seleccioná un año para ver el contenido</p>
+    </div>
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="2021-tab" data-bs-toggle="tab" data-bs-target="#y2021" type="button" role="tab" aria-controls="y2021" aria-selected="true">2021</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="2020-tab" data-bs-toggle="tab" data-bs-target="#y2020" type="button" role="tab" aria-controls="y2020" aria-selected="false">2020</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="2019-tab" data-bs-toggle="tab" data-bs-target="#y2019" type="button" role="tab" aria-controls="y2019" aria-selected="false">2019</button>
+      </li>
+    </ul>
+
+
+<div class="tab-content mt-4" id="myTabContent">
+  
+  <!-- Año 2021 -->
+  <div class="tab-pane fade show active" id="y2021" role="tabpanel" aria-labelledby="2021-tab">
+    <div class="row">
+      <!-- Video 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <video class="w-100" height="250" controls>
+            <source src="img/play.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Evento 2021 - Video 1</h5>
+            <p class="card-text">Descripción corta del evento.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <video class="w-100" height="250" controls>
+            <source src="img/play.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Evento 2021 - Video 2</h5>
+            <p class="card-text">Descripción corta del evento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Año 2020 -->
+  <div class="tab-pane fade" id="y2020" role="tabpanel" aria-labelledby="2020-tab">
+    <div class="row">
+      <!-- Video 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <video class="w-100" height="250" controls>
+            <source src="img/play.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Evento 2020 - Video 1</h5>
+            <p class="card-text">Descripción corta del evento.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <video class="w-100" height="250" controls>
+            <source src="img/play.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Evento 2020 - Video 2</h5>
+            <p class="card-text">Descripción corta del evento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Año 2019 -->
+  <div class="tab-pane fade" id="y2019" role="tabpanel" aria-labelledby="2019-tab">
+    <div class="row">
+      <!-- Video 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <video class="w-100" height="250" controls>
+            <source src="img/play.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Evento 2019 - Video 1</h5>
+            <p class="card-text">Descripción corta del evento.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <video class="w-100" height="250" controls>
+            <source src="img/play.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Evento 2019 - Video 2</h5>
+            <p class="card-text">Descripción corta del evento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+            <!-- Noticias -->
+    <div class="row">
+  <!-- Imagen 1 -->
+  <div class="col-md-3 mb-4">
+    <div class="card h-100 shadow-sm">
+      <img src="img/img2.jpg" class="card-img-top" alt="Noticia 1">
+      <div class="card-body">
+        <h5 class="card-title">Título de la Noticia 1</h5>
+        <p class="card-text">Un breve resumen de la noticia.</p>
+        <a href="#" class="btn btn-outline-primary">Leer más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imagen 2 -->
+  <div class="col-md-3 mb-4">
+    <div class="card h-100 shadow-sm">
+      <img src="img/img2.jpg" class="card-img-top" alt="Noticia 2">
+      <div class="card-body">
+        <h5 class="card-title">Título de la Noticia 2</h5>
+        <p class="card-text">Un breve resumen de la noticia.</p>
+        <a href="#" class="btn btn-outline-primary">Leer más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imagen 3 -->
+  <div class="col-md-3 mb-4">
+    <div class="card h-100 shadow-sm">
+      <img src="img/img2.jpg" class="card-img-top" alt="Noticia 3">
+      <div class="card-body">
+        <h5 class="card-title">Título de la Noticia 3</h5>
+        <p class="card-text">Un breve resumen de la noticia.</p>
+        <a href="#" class="btn btn-outline-primary">Leer más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imagen 4 -->
+  <div class="col-md-3 mb-4">
+    <div class="card h-100 shadow-sm">
+      <img src="img/img2.jpg" class="card-img-top" alt="Noticia 4">
+      <div class="card-body">
+        <h5 class="card-title">Título de la Noticia 4</h5>
+        <p class="card-text">Un breve resumen de la noticia.</p>
+        <a href="#" class="btn btn-outline-primary">Leer más</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <a href="#" class="btn btn-primary btn-lg mt-3 me-2">Ver todos los testimonios</a>
+</div>
+
+</section>
+
+<section class="container my-5">
+  
+  <div class="card mb-4 shadow-sm">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/boca.avif" class="img-fluid rounded-start" alt="Noticia Principal">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Visitamos el plantel de boca</h2>
+          <p class="card-text">
+            Esta es una tarjeta destacada con un texto más largo que resalta como noticia principal o contenido más importante.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Noticia 1 -->
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/img2.jpg" class="card-img-top" alt="Noticia 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la Noticia 1</h5>
+          <p class="card-text">Un breve resumen de la noticia.</p>
+          <a href="#" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Noticia 2 -->
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/img2.jpg" class="card-img-top" alt="Noticia 2">
+        <div class="card-body">
+          <h5 class="card-title">Título de la Noticia 2</h5>
+          <p class="card-text">Un breve resumen de la noticia.</p>
+          <a href="#" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Noticia 3 -->
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/img2.jpg" class="card-img-top" alt="Noticia 3">
+        <div class="card-body">
+          <h5 class="card-title">Título de la Noticia 3</h5>
+          <p class="card-text">Un breve resumen de la noticia.</p>
+          <a href="#" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Noticia 4 -->
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/img2.jpg" class="card-img-top" alt="Noticia 4">
+        <div class="card-body">
+          <h5 class="card-title">Título de la Noticia 4</h5>
+          <p class="card-text">Un breve resumen de la noticia.</p>
+          <a href="#" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="custom-section">
+  <!-- Bloque 1 -->
+  <div class="block row-1">
+    <div class="image">
+      <img src="img/obra social.jpg" alt="Imagen 1">
+    </div>
+    <div class="content">
+      <h2>Título 1</h2>
+      <p>Subtítulo o descripción breve.</p>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary btn-lg mt-3 me-2">Ver todos los testimonios</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bloque 2 -->
+  <div class="block row-2">
+    <div class="content">
+      <h2>Título 2</h2>
+      <p>Subtítulo o descripción breve.</p>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary btn-lg mt-3 me-2">Ver todos los testimonios</a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/gimnasio.jpg" alt="Imagen 2">
+    </div>
+  </div>
+</section>
+
+             <!-- Bloque Azul -->
+
+<section class="educa-section text-white" id="bloque_azul">
+  <div class="container py-5">
+    <!-- Título -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Capacitate en <span class="highlight">FAA EDUCA</span></h2>
+      <p class="lead mt-3">Formate con nuestros programas diseñados para potenciar tu futuro profesional.</p>
+    </div>
+
+    <!-- 4 tarjetas pequeñas con números -->
+    <div class="row text-center mb-5">
+      <div class="col-md-3">
+        <div class="small-card p-4">
+          <h3 class="display-5 fw-bold">10.000</h3>
+          <p>ALUMNOS</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="small-card p-4">
+          <h3 class="display-5 fw-bold">+12</h3>
+          <p>CURSOS</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="small-card p-4">
+          <h3 class="display-5 fw-bold">20</h3>
+          <p>PROFESORES</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="small-card p-4">
+          <h3 class="display-5 fw-bold">10.000</h3>
+          <p>EGRESADOS</p>
+        </div>
+      </div>
+    </div>
+
+  
+<div class="row g-4">
+  <!-- Tarjeta 1 -->
+  <div class="col-md-6">
+    <div class="big-card text-white" style="background-image: url('img/entrenador.jpg');">
+      <h5>Curso Online</h5>
+      <h3>Nombre del Curso</h3>
+      <a href="#" class="btn">Ver Curso</a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 2 -->
+  <div class="col-md-6">
+    <div class="big-card text-white" style="background-image: url('img/entrenador.jpg');">
+      <h5>Curso Online</h5>
+      <h3>Nombre del Curso</h3>
+      <a href="#" class="btn">Ver Curso</a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 3 -->
+  <div class="col-md-6">
+    <div class="big-card text-white" style="background-image: url('img/entrenador.jpg');">
+      <h5>Curso Online</h5>
+      <h3>Nombre del Curso</h3>
+      <a href="#" class="btn">Ver Curso</a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 4 -->
+  <div class="col-md-6">
+    <div class="big-card text-white" style="background-image: url('img/entrenador.jpg');">
+      <h5>Curso Online</h5>
+      <h3>Nombre del Curso</h3>
+      <a href="#" class="btn">Ver Curso</a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 5 -->
+  <div class="col-md-6">
+    <div class="big-card text-white" style="background-image: url('img/entrenador.jpg');">
+      <h5>Curso Online</h5>
+      <h3>Nombre del Curso</h3>
+      <a href="#" class="btn">Ver Curso</a>
+    </div>
+  </div>
+
+  <!-- Tarjeta 6 -->
+  <div class="col-md-6">
+    <div class="big-card text-white" style="background-image: url('img/entrenador.jpg');">
+      <h5>Curso Online</h5>
+      <h3>Nombre del Curso</h3>
+      <a href="#" class="btn">Ver Curso</a>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section class="nuestra-institucion" style="background-image: url('img/agremiados.jpg');">
+  <div class="overlay">
+    <div class="container text-center">
+      <h2>Nuestra institución</h2>
+      <p>
+        Futbolistas Argentinos Agremiados nació el 2 de noviembre de 1944, cuando un nutrido grupo de futbolistas y colaboradores comprendió que había llegado el momento de organizarse para pelear contra una serie de situaciones injustas que padecían por entonces los grandes protagonistas del fútbol.
+      </p>
+      <a href="#" class="btn btn-primary btn-lg">Más información</a>
+    </div>
+  </div>
+</section>
+
+<!-- Sección App -->
+<section class="app-section py-5" style="background-color: #07233e;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-white">
+        <h3 class="fw-bold">APP de Futbolistas Argentinos Agremiados</h3>
+        <p class="mb-4">Descarga la aplicación en tu celular</p>
+            <div class="d-flex flex-xl-column justify-content-lg-start justify-content-center mt-md-3">
+                <a class="img-button mb-xl-2 me-2 me-xl-0" href="https://apps.apple.com/app/id1356562177" target="_blank">
+                    <img height="50" src="https://faaweb.b-cdn.net/media/web/assets/icons/app_store.png" alt="">
+                </a>
+                <a class="img-button ms-2 ms-xl-0 mt-xl-2" href="https://play.google.com/store/apps/details?id=com.app.agremiados" target="_blank">
+                    <img height="50" src="https://faaweb.b-cdn.net/media/web/assets/icons/google_store.png" alt="">
+                </a>
+            </div>
+      </div>
+      <!-- Imagen -->
+      <div class="col-md-6 text-center">
+        <img src="img/telefono.png" alt="App en celular" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+            <!-- Sector de videos e imagenes -->
+
+<!-- ===== Galería de videos ===== -->
+<section class="gallery-section py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h3 class="mb-0">Galería de videos</h3>
+      <a href="#" class="btn btn-outline-primary btn-sm">Ver más</a>
+    </div>
+
+    <div class="row g-4">
+      <!-- Video 1 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm video-card" data-video="videos/video1.mp4">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Video 1">
+            <span class="badge-play"></span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Título del video 1</h6>
+            <small class="text-muted">00:45</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm video-card" data-video="videos/video2.mp4">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Video 2">
+            <span class="badge-play"></span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Título del video 2</h6>
+            <small class="text-muted">01:12</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm video-card" data-video="videos/video3.mp4">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Video 3">
+            <span class="badge-play"></span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Título del video 3</h6>
+            <small class="text-muted">02:04</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Video 4 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm video-card" data-video="videos/video4.mp4">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Video 4">
+            <span class="badge-play"></span>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Título del video 4</h6>
+            <small class="text-muted">00:58</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Galería de fotos ===== -->
+<section class="gallery-section py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h3 class="mb-0">Galería de fotos</h3>
+      <a href="#" class="btn btn-outline-primary btn-sm">Ver más</a>
+    </div>
+
+    <div class="row g-4">
+      <!-- Foto 1 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm photo-card" href="img/foto1.jpg" target="_blank">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Foto 1">
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Evento 1</h6>
+            <small class="text-muted">Descripción breve</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Foto 2 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm photo-card" href="img/foto2.jpg" target="_blank">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Foto 2">
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Evento 2</h6>
+            <small class="text-muted">Descripción breve</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Foto 3 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm photo-card" href="img/foto3.jpg" target="_blank">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Foto 3">
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Evento 3</h6>
+            <small class="text-muted">Descripción breve</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Foto 4 -->
+      <div class="col-6 col-md-3">
+        <a class="card h-100 shadow-sm photo-card" href="img/foto4.jpg" target="_blank">
+          <div class="ratio ratio-16x9 media-thumb">
+            <img src="img/img2.jpg" alt="Foto 4">
+          </div>
+          <div class="card-body">
+            <h6 class="card-title mb-1">Evento 4</h6>
+            <small class="text-muted">Descripción breve</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark">
+      <div class="ratio ratio-16x9">
+        <video id="videoPlayer" controls playsinline>
+          <source id="videoSource" src="" type="video/mp4">
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<section class="pre-footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-logos-container align-items-center">
+                <a href="https://www.afa.com.ar/es/" target="_blank" rel="nofollow"><img class="footer-logo" src="https://faaweb.b-cdn.net/media/web/assets/images/logo-1.png" alt="AFA"></a>
+                <a href="https://www.fifa.com/" target="_blank" rel="nofollow"><img class="footer-logo" src="https://faaweb.b-cdn.net/media/web/assets/images/FIFA.png" alt="FIFA"></a>
+                <a href="https://fifpro.org" target="_blank" rel="nofollow"><img class="footer-logo" src="https://faaweb.b-cdn.net/media/web/assets/images/FIFPRO.png" alt="FIFPRO"></a>
+                <a href="https://www.fifprosudamerica.org" target="_blank" rel="nofollow"><img class="footer-logo" src="https://faaweb.b-cdn.net/media/web/assets/images/FIFPROSUDAMERICA.png" alt="FIFPRO SUDAMERICA"></a>
+                <a href="https://www.conmebol.com" target="_blank" rel="nofollow"><img class="footer-logo" src="https://faaweb.b-cdn.net/media/web/assets/images/logo-5.png" alt="CONMEBOL"></a>
+                <a href="https://www.ligaprofesional.ar/" target="_blank" rel="nofollow"><img class="footer-logo" src="https://faaweb.b-cdn.net/media/web/assets/images/logo-2.png" alt="LPF"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+  <!-- ====== Footer principal ====== -->
+  <section class="footer-nav-section">
+    <div class="container">
+      <div class="footer-nav">
+        <div class="footer-column">
+          <h6>Contacto</h6>
+          <ul>
+            <li>Sindicato / Obra Social / I.M.D.Y.R.</li>
+            <li>Salta 1144 (C1074AAX)</li>
+            <li>CABA, Argentina</li>
+            <li>Tel/Fax: (+54) 11-5676-4000</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>FAA</h6>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Sedes</a></li>
+            <li><a href="#">Galerías de imágenes</a></li>
+            <li><a href="#">Galerías de videos</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>Obra Social</h6>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cartilla</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Cómo afiliarse</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Delegaciones</a></li>
+            <li><a href="#">Beneficios</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>IMDYR</h6>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Qué es y cómo funciona</a></li>
+            <li><a href="#">Profesionales</a></li>
+            <li><a href="#">Equipamiento</a></li>
+            <li><a href="#">Especialidades</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>App Disponible en:</h6>
+          <div class="d-flex justify-content-start mt-md-3 flex-wrap">
+            <a class="img-button me-2 mb-2" href="https://apps.apple.com/app/id1356562177" target="_blank">
+              <img src="https://faaweb.b-cdn.net/media/web/assets/icons/app_store.png" alt="App Store">
+            </a>
+            <a class="img-button mb-2" href="https://play.google.com/store/apps/details?id=com.app.agremiados" target="_blank">
+              <img src="https://faaweb.b-cdn.net/media/web/assets/icons/google_store.png" alt="Google Play">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer inferior ====== -->
+  <section class="footer-bottom-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <a href="https://www.agremiados.com.ar" class="mx-2">
+            <img src="https://faaweb.b-cdn.net/media/web/assets/images/logo_faa_tr.svg?v=2" alt="FAA">
+          </a>
+          <a href="https://obrasocial.agremiados.com.ar" class="mx-2">
+            <img src="https://faaweb.b-cdn.net/media/web/assets/images/logo_os_tr.svg?v=2" alt="Obra Social">
+          </a>
+          <a href="https://www.imdyr.com.ar" class="mx-2">
+            <img src="https://faaweb.b-cdn.net/media/web/assets/images/logo_imdyr_tr.svg?v=2" alt="IMDYR">
+          </a>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <p class="mt-2 mt-md-0 text-tag">Alan Alzogaray</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+
+</body>
+
+</html>
