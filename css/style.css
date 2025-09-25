@@ -508,7 +508,6 @@
   margin-top: 20px; 
 }
 
-
 .footer-logos-container {
   display: flex;
   justify-content: center;
@@ -673,14 +672,26 @@
   .footer-column {
     flex: 1;
     max-width: 100%;
+    padding: 0 10px; 
   }
   .footer-column h6 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .footer-column ul li {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
   .img-button img {
-    height: 35px;
+    height: 25px; 
+  }
+  .footer-logos-container {
+    gap: 10px;
+  }
+  .footer-logos-container .footer-logo {
+    height: 40px; 
+    flex: 0 0 40%; 
+    max-width: 40%;
+  }
+  .pre-footer {
+    padding: 20px 10px; 
   }
 }
