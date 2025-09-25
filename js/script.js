@@ -1,4 +1,4 @@
-// Cambiar header al hacer scroll
+// scroll
 window.addEventListener("scroll", function() {
   const header = document.getElementById("header");
 
@@ -13,7 +13,7 @@ window.addEventListener("scroll", function() {
 
 
 
-// Abre el modal con la fuente del video seleccionada
+// para abir el modal con la fuente del video seleccionada
 document.querySelectorAll('.video-card[data-video]').forEach(card => {
   card.addEventListener('click', (e) => {
     e.preventDefault();
@@ -32,3 +32,10 @@ document.getElementById('videoModal')?.addEventListener('hidden.bs.modal', () =>
   const video = document.getElementById('videoPlayer');
   if (video) video.pause();
 });
+
+
+// Actualiza automáticamente el año en el copyright
+const yearElement = document.getElementById('year');
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
+}
